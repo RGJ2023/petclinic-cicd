@@ -15,3 +15,4 @@ RUN chown -R petclinic:petclinic /app
 USER petclinic
 EXPOSE 8080
 ENTRYPOINT ["java", "-jar", "app.jar"]
+
